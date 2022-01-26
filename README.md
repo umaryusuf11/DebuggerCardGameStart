@@ -22,10 +22,10 @@ For each of the following, debug by running the main method in BlackJack.java
 * Make sure you run in debug mode so your breakpoints are observed
 * If you can't see an option to run the main method you want to use, look in the "Debug Configurations..." option below that
 
-### Warnings
+### Q1. Warnings
 * Find the class which is not making use of an import other than ArrayList and enter it's name in Moodle Q1
 
-### Stack Traces
+### Q2. Stack Traces
 * Set a breakpoint on line 70 of BlackJack.java
 * Run BlackJack main - when prompted, give the username bob and the value 2 for number of players
 * An error should occur and create a stack trace for you to inspect before the breakpoint
@@ -33,17 +33,17 @@ For each of the following, debug by running the main method in BlackJack.java
 THIS ISSUE MUST BE FIXED BEFORE CONTINUING - GET HELP IF YOU CAN'T FIX IT
 
 
-### Breakpoints and Variable Inspection
+### Q3. Breakpoints and Variable Inspection
 * Run BlackJack main - when prompted, give the username bob and the value 2 for number of players
 * What name does the player have when the breakpoint on line 70 is hit?
 
-### Stepping In
+### Q4. Stepping In
 * Carrying on from the hitting the debug point on line 70...
 * (If you already stopped the process run BlackJack main - when prompted, give the username bob and the value 2 for number of players)
 * Step into the code twice
 * What class do you end up in?
 
-### Setting a watchpoint
+### Q5. Setting a watchpoint
 * Set a watchpoint on the variable maxscore in BlackJack.java
 * Run BlackJack main - when prompted, give the username bob and the value 2 for number of players
 * What is the SECOND line of code to access maxscore? 
@@ -51,15 +51,15 @@ THIS ISSUE MUST BE FIXED BEFORE CONTINUING - GET HELP IF YOU CAN'T FIX IT
 ## Advanced Debugging with Unit Tests and Debugger
 Now you have the basics of using a debugger, it's time to apply those skills to identifying some harder to find issues.
 
-### Player Name
+### Q6. Player Name
 * Find the class and line of code responsible for the name of the player not being bob. 
 
 Run the JUnit tests on your code.
 
-### JUnit Test Failure getScoreAceLow 
+### Q7. JUnit Test Failure getScoreAceLow 
 * Which class/line of code contains the mistake that is causing the getScoreAceLow test to fail?
 
-### Wildcard mistake
+### Q8. Wildcard mistake
 * There is a final line of code somewhere in the project sometimes causing an error 
 * Hint: the bug has not shown itself yet but happens with certain console input 
 * Use debugging to identify the error
