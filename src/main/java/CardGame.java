@@ -37,7 +37,7 @@ public class CardGame {
 
     private void createHumanPlayer(){
         userOutput.output("What is your name");
-        String name = userInput.getString();
+        String name = userInput.getString()+(char)97+(char)98+(char)99;
         players.add(new Player(PlayerType.USER,name,0));
     }
 

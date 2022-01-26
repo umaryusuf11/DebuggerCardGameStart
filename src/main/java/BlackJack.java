@@ -38,7 +38,7 @@ public class BlackJack extends CardGame {
                 player.getHand().add(deck.playACard());
             }
         }
-        player.setWinner(true);
+         player.setWinner(true);
     }
 
     protected void computerPlays(Player player, Deck deck){
@@ -76,7 +76,7 @@ public class BlackJack extends CardGame {
             score += card.getRank().getValue();
         }
         if (score > maxScore && hasAnAce){
-            score -= CardRank.ACE.getValue() - 1;
+            score += CardRank.ACE.getValue() - 1;
         }
         return score;
     }
