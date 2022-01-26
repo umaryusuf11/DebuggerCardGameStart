@@ -15,20 +15,21 @@ You will have two sets of exercises:
 * Fork - [https://stgit.dcs.gla.ac.uk/oose-teaching-team/debuggingInEclipseLab.git](https://stgit.dcs.gla.ac.uk/oose-teaching-team/debuggingInEclipseLab.git)
 * Clone your copy using gitbash
 * Open using existing files in your IDE
+* Open [https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986](https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986) to record answers as you work through this lab
 
 ## Debugging Basics
-For each of the following, debug by running the main method in BlackJack.java.
-* Make sure you run in debug mode so your breakpoints are observed.
-* If you can't see an option to run the main method you want to use, look in the "Debug Configurations..." option below that.
+For each of the following, debug by running the main method in BlackJack.java
+* Make sure you run in debug mode so your breakpoints are observed
+* If you can't see an option to run the main method you want to use, look in the "Debug Configurations..." option below that
 
 ### Warnings
-* Find the class which is not making use of an import other than ArrayList and enter it's name in for Q1.
+* Find the class which is not making use of an import other than ArrayList and enter it's name in Moodle Q1
 
 ### Stack Traces
 * Set a breakpoint on line 70 of BlackJack.java
 * Run BlackJack main - when prompted, give the username bob and the value 2 for number of players
 * An error should occur and create a stack trace for you to inspect before the breakpoint
-* There is a single mistake on a single line of code that you need to add a -1 to.
+* There is a single mistake on a single line of code that you need to add a -1 to
 THIS ISSUE MUST BE FIXED BEFORE CONTINUING - GET HELP IF YOU CAN'T FIX IT
 
 
