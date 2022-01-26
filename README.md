@@ -12,7 +12,7 @@ You will have two sets of exercises:
 * More challenging work to find the specific locations of lines of code causing JUnit tests to fail
 
 ## Setup
-* Fork - []()
+* Fork - [https://stgit.dcs.gla.ac.uk/oose-teaching-team/debuggingInEclipseLab.git](https://stgit.dcs.gla.ac.uk/oose-teaching-team/debuggingInEclipseLab.git)
 * Clone your copy using gitbash
 * Open using existing files in your IDE
 
