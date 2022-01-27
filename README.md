@@ -15,10 +15,10 @@ You will have two sets of exercises:
 * Fork - [https://stgit.dcs.gla.ac.uk/oose-teaching-team/debuggingInEclipseLab.git](https://stgit.dcs.gla.ac.uk/oose-teaching-team/debuggingInEclipseLab.git)
 * Clone your copy using gitbash
 * Open using existing files in your IDE
-* Open [https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986](https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986) to record answers as you work through this lab
+* Open [https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986](https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986) to record answers as you work through this lab - note there is no GitLab submission this week and no need to add demonstrators as developers to your repository this week.
 
 ## Debugging Basics
-For each of the following, debug by running the main method in BlackJack.java
+* For each of the following, debug by running the main method in BlackJack.java
 * Make sure you run in debug mode so your breakpoints are observed
 * If you can't see an option to run the main method you want to use, look in the "Debug Configurations..." option below that
 
@@ -48,7 +48,7 @@ THIS ISSUE MUST BE FIXED BEFORE CONTINUING - GET HELP IF YOU CAN'T FIX IT
 * Run BlackJack main - when prompted, give the username bob and the value 2 for number of players
 * What is the SECOND line of code to access maxscore? 
 
-## Advanced Debugging with Unit Tests and Debugger
+## Debugging with Unit Tests and Debugger
 Now you have the basics of using a debugger, it's time to apply those skills to identifying some harder to find issues.
 
 ### Q6. Player Name
@@ -60,7 +60,7 @@ Run the JUnit tests on your code.
 * Which class/line of code contains the mistake that is causing the getScoreAceLow test to fail?
 
 ### Q8. Wildcard mistake
-* There is a final line of code somewhere in the project sometimes causing an error 
+* There is a final line of code somewhere in the project sometimes causes an error 
 * Hint: the bug has not shown itself yet but happens with certain console input 
 * Use debugging to identify the error
 * Find the class and line of code that is responsible for the mistake  
