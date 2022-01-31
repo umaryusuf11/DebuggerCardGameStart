@@ -60,8 +60,8 @@ Run the JUnit tests on your code.
 * Which class/line of code contains the mistake that is causing the getScoreAceLow test to fail?
 
 ### Q8. Wildcard mistake
-* There is a final line of code somewhere in the project sometimes causes an error 
-* Hint: the bug has not shown itself yet but happens with certain console input 
+* There is a final, single line of code somewhere in the project sometimes causes an error 
+* Hints: 1) the bug has not shown itself yet but happens with certain console input and 2) the bug does not  relate to unimplemented functionality - it is a feature of the code that is not working correctly becasue there is a single line of code that has been written in a way that does not conform to the rules outlined to the user
 * Use debugging to identify the error
 * Find the class and line of code that is responsible for the mistake  
 
