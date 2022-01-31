@@ -23,7 +23,7 @@ You will have two sets of exercises:
 * If you can't see an option to run the main method you want to use, look in the "Debug Configurations..." option below that
 
 ### Q1. Warnings
-* Find the class which is not making use of an import other than ArrayList and enter it's name in Moodle Q1
+* Find the class which is importing HashMap and not making use of it then enter the class name into Q1 on Moodle.
 
 ### Q2. Stack Traces
 * Set a breakpoint on line 70 of BlackJack.java
