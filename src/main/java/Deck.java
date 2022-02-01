@@ -24,14 +24,6 @@ public class Deck extends Hand{
         }
     }
 
-    public Card playACard(int userCard){
-        if (handOfCards.size() == 0){
-            generateDeck();
-            shuffleDeck();
-        }
-        return handOfCards.remove(userCard);
-    }
-
     public void shuffleDeck(){
         if (! override) {
             Collections.shuffle(this.handOfCards);
