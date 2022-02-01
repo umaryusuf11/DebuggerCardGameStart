@@ -15,15 +15,15 @@ You will have two sets of exercises:
 * Fork - [https://stgit.dcs.gla.ac.uk/oose-teaching-team/debuggingInEclipseLab.git](https://stgit.dcs.gla.ac.uk/oose-teaching-team/debuggingInEclipseLab.git)
 * Clone your copy using gitbash
 * Open using existing files in your IDE
-* Open [https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986](https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986) to record answers as you work through this lab
+* Open [https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986](https://moodle.gla.ac.uk/mod/quiz/view.php?id=2797986) to record answers as you work through this lab - note there is no GitLab submission this week and no need to add demonstrators as developers to your repository this week.
 
 ## Debugging Basics
-For each of the following, debug by running the main method in BlackJack.java
+* For each of the following, debug by running the main method in BlackJack.java
 * Make sure you run in debug mode so your breakpoints are observed
 * If you can't see an option to run the main method you want to use, look in the "Debug Configurations..." option below that
 
 ### Q1. Warnings
-* Find the class which is not making use of an import other than ArrayList and enter it's name in Moodle Q1
+* Find the class which is importing HashMap and not making use of it then enter the class name into Q1 on Moodle.
 
 ### Q2. Stack Traces
 * Set a breakpoint on line 70 of BlackJack.java
@@ -48,7 +48,7 @@ THIS ISSUE MUST BE FIXED BEFORE CONTINUING - GET HELP IF YOU CAN'T FIX IT
 * Run BlackJack main - when prompted, give the username bob and the value 2 for number of players
 * What is the SECOND line of code to access maxscore? 
 
-## Advanced Debugging with Unit Tests and Debugger
+## Debugging with Unit Tests and Debugger
 Now you have the basics of using a debugger, it's time to apply those skills to identifying some harder to find issues.
 
 ### Q6. Player Name
@@ -60,8 +60,8 @@ Run the JUnit tests on your code.
 * Which class/line of code contains the mistake that is causing the getScoreAceLow test to fail?
 
 ### Q8. Wildcard mistake
-* There is a final line of code somewhere in the project sometimes causing an error 
-* Hint: the bug has not shown itself yet but happens with certain console input 
+* There is a final, single line of code somewhere in the project sometimes causes an error 
+* Hints: 1) the bug has not shown itself yet but happens with certain console input and 2) the bug does not  relate to unimplemented functionality - it is a feature of the code that is not working correctly becasue there is a single line of code that has been written in a way that does not conform to the rules outlined to the user
 * Use debugging to identify the error
 * Find the class and line of code that is responsible for the mistake  
 

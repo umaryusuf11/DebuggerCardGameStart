@@ -35,7 +35,11 @@ public class Hand{
     }
 
     public Card playACard(){
+<<<<<<< HEAD
         return playACard(handOfCards.size()-1);
+=======
+        return handOfCards.remove(handOfCards.size());
+>>>>>>> 583d35877003f8b4e5586a2886f2e2617be6ae9c
     }
 
     public Card playACard(int userCard){
